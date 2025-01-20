@@ -16,39 +16,39 @@ class SplashScreen extends StatelessWidget {
         body: Stack(
           children: [
             Image.asset(
-              "assets/images/splash_bg.png",
+              "assets/images/splash.png",
               width: double.infinity,
               fit: BoxFit.fitWidth,
             ),
-            Center(
-              child: Image.asset(
-                "assets/images/splash_icon.png",
-              ),
-            ),
-            Positioned(
-                left: 0,
-                right: 0,
-                bottom: 119.h,
-                child: Center(
-                    child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Hyip",
-                      style: GoogleFonts.teko(
-                          fontSize: 50.sp,
-                          fontWeight: FontWeight.w500,
-                          color: AppColors.appWhiteColor),
-                    ),
-                    Text(
-                      "Pro",
-                      style: GoogleFonts.teko(
-                          fontSize: 50.sp,
-                          fontWeight: FontWeight.w500,
-                          color: AppColors.appBrandColor2),
-                    ),
-                  ],
-                )))
+            // Center(
+            //   child: Image.asset(
+            //     "assets/images/splash_icon.png",
+            //   ),
+            // ),
+            // Positioned(
+            //     left: 0,
+            //     right: 0,
+            //     bottom: 119.h,
+            //     child: Center(
+            //         child: Row(
+            //       mainAxisAlignment: MainAxisAlignment.center,
+            //       children: [
+            //         Text(
+            //           "Hyip",
+            //           style: GoogleFonts.teko(
+            //               fontSize: 50.sp,
+            //               fontWeight: FontWeight.w500,
+            //               color: AppColors.appWhiteColor),
+            //         ),
+            //         Text(
+            //           "Pro",
+            //           style: GoogleFonts.teko(
+            //               fontSize: 50.sp,
+            //               fontWeight: FontWeight.w500,
+            //               color: AppColors.appBrandColor2),
+            //         ),
+            //       ],
+            //     )))
           ],
         ),
       );
