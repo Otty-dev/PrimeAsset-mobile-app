@@ -4,7 +4,7 @@ class AppConstants {
 
   ///Base URL
   // static const String baseUri = 'http://192.168.0.104/clutch';
-  static const String baseUri = 'https://hyip-pro.bugfinder.app';
+  static const String baseUri = 'https://primeassets.space';
 
   ///End Point
   static const String dashBoardUri = '/api/dashboard';

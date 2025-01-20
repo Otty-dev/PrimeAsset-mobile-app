@@ -14,16 +14,18 @@ class AppStepsRepo {
   Future<ApiResponse> getAppStepsData() async {
     try {
       Response response = await dioClient.get(
-        "${AppConstants.appStepsUri}",
+        AppConstants.appStepsUri,
         options: Options(headers: {
           "Content-Type": "application/json",
           "Authorization":
               "Bearer ${sharedPreferences.getString(AppConstants.token)}",
         }),
       );
-      // print("app steps data --------------------------> $response");
+      print("app steps data --------------------------> $response");
       return ApiResponse.withSuccess(response);
     } catch (e) {
+      print("app steps error Response --------------------------> $e");
+
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
     }
   }
