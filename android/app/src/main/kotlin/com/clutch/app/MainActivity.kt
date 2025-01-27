@@ -1,4 +1,4 @@
-package com.clutch.app.clutch
+package com.primeassets.clutch.app
 import android.os.Bundle
 
 import io.flutter.embedding.android.FlutterFragmentActivity

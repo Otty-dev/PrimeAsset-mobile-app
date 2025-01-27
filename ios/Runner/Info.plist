@@ -45,5 +45,23 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	    <key>NSCameraUsageDescription</key>
+        <string>Prime Assets needs your camera permission for a sefie verification of your identity</string>
+	    <key>NSMicrophoneUsageDescription</key>
+        <string>Prime Assets needs your microphone permission</string>
+        <key>NSFaceIDUsageDescription</key>
+        <string>Prime Assets Authentication with TouchId or FaceID</string>
+		<key>NSFaceIDUsageDescription</key>
+        <string>Prime Assets Authentication with TouchId or FaceID</string>
+        <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+        <string>Prime Assets would like to access your location</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>Prime Assets would like to access your location</string>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>Prime Assets would like to save images to your device.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Prime Assets would like to save images to your device.</string>
+		<key>ITSAppUsesNonExemptEncryption</key>
+        <false/>
 </dict>
 </plist>
